@@ -19,7 +19,7 @@ export function LoginPage() {
   return (
     <main className="center-screen">
       <form className="card login" onSubmit={onSubmit}>
-        <img src="/icon.svg" alt="" className="login-logo" />
+        <img src={`${import.meta.env.BASE_URL}icon.svg`} alt="" className="login-logo" />
         <h1>דיזל עכו</h1>
         <label>
           אימייל
